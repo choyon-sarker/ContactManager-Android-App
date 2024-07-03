@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857972514593",
+    "project_id": "addcontact-76222",
+    "storage_bucket": "addcontact-76222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857972514593:android:401fc801c7e99f8245a860",
+        "android_client_info": {
+          "package_name": "com.devdroid.contactmanagerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArcs9JO5EHnM4RMf8cUm87Y3GEcPeS8kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

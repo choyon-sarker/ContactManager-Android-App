@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Sign Up "
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:boxStrokeColor="@color/orange"
+        app:hintTextColor="@color/orange"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        app:startIconTint="@color/orange"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ti_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter Your Name"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:boxStrokeColor="@color/orange"
+        app:hintTextColor="@color/orange"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        app:startIconTint="@color/orange"
+        >
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ti_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter Your Email" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/orange"
+        app:hintTextColor="@color/orange"
+        android:padding="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:startIconDrawable="@drawable/baseline_perm_identity_24"
+        app:startIconTint="@color/orange"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ti_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter Your ID"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/orange"
+        />
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:text="Already SignUp ! Click Here"/>
+
+
+</LinearLayout>
